@@ -3,6 +3,7 @@ import unittest
 from captcha import captcha, reduce, captcha_halway, reduce_halfway
 
 class MyTestCase(unittest.TestCase):
+
     def test_captcha1(self):
         result = captcha("1122")
         self.assertEqual(3, result)
